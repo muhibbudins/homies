@@ -6,7 +6,7 @@ Homies are landing page template for Home Design Agency, this repository build f
 
 ## Requirement & Prepare
 
-Before we start, please follow this step to prepare this project (and make sure you have already installed web service like Apache / Nginx / XAMPP / WAMP etc. to start localhost) :
+Before we start, please follow below steps to prepare this project and make sure you have already installed web service like Apache / Nginx / XAMPP / WAMP etc. :
 
 #### Install Ruby SASS
 
@@ -16,13 +16,13 @@ First, you can install Ruby from [this link](https://www.ruby-lang.org/en/downlo
 
 > If you have already installed git you can skip this step
 
-After installing ruby, next you should install GIT for cloning this project [follow this link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for more steps.
+After installing ruby, next you should install GIT for downloading this project [follow this link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for detail.
 
 ## How to run
 
-And then, after prepare requirement above. You can start cloning this project to your local machine.
+And then, after prepare requirement above. You can start download this project to your local machine with steps like this :
 
-- Run `git clone git@github.com:muhibbudins/homies.git`
+- Run `git clone git@github.com:muhibbudins/homies.git` on Terminal / Command Prompt (CMD)
 - Open `localhost/homies` on your favorite browser
 - Compile SCSS file with command `sass --watch scss/style.scss:css/style.css`
 - Yups, you can start to modify this template!

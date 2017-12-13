@@ -1,5 +1,3 @@
-(setq markdown-xhtml-header-content"<style type='text/css'>img[src*='#center'] { width: 100px; height: 100px; border-radius: 50%; }</style>")
-
 # Hi, Welcome to Homies
 
 Homies are landing page template for Home Design Agency, this repository build for kulgram "Kuliah Telegram" in FemaleGeek Community.

@@ -4,21 +4,104 @@ Homies are landing page template for Home Design Agency, this repository build f
 
 ![Preview](/img/preview.jpg)
 
-### Requirement & Prepare
+## Requirement & Prepare
 
+Before we start, please follow this step to prepare this project (and make sure you have already installed web service like Apache / Nginx / XAMPP / WAMP etc. to start localhost) :
 
-### How to run
+### Install Ruby SASS
 
+First, you can install Ruby from [this link](https://www.ruby-lang.org/en/downloads/) with your current platform. Next, install Ruby SASS from [this link](http://sass-lang.com/install). Or if you use Linux / OSX just run `sudo gem install sass` on your Terminal.
 
-### Structure
+### Install GIT
 
+> If you have already installed git you can skip this step
 
-### About
+After installing ruby, next you should install GIT for cloning this project [follow this link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for more steps.
+
+## How to run
+
+And then, after prepare requirement above. You can start cloning this project to your local machine.
+
+- Run `git clone git@github.com:muhibbudins/homies.git`
+- Open `localhost/homies` on your favorite browser
+- Compile SCSS file with command `sass --watch scss/style.scss:css/style.css`
+- Yups, you can start to modify this template!
+
+## Structure
+
+#### Folder Structure
+
+```
+|- css
+|- img
+|- scss
+|- .gitignore
+|- index.html
+|- LICENSE
+|- README.md
+```
+
+#### HTML Structure
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project Name</title>
+</head>
+<body>
+	
+	<!-- Heading -->
+
+	<!-- Hero -->
+
+	<!-- Testimony -->
+
+	<!-- Projects -->
+
+	<!-- Contact Us -->
+
+	<!-- Footer -->
+
+</body>
+</html>
+```
+
+#### SCSS Structure
+
+```scss
+.heading {
+	
+}
+
+.hero {
+	
+}
+
+.testimony {
+	
+}
+
+.projects {
+	
+}
+
+.contact_us {
+	
+}
+
+.footer {
+	
+}
+```
+
+## About
 
 ![Muhibbudin Suretno](/img/photo.jpg)
 
 Hi, My name Muhibbudin Suretno (Eno) i have around 3+ years experience in Web Development and this year try to focus on UI/UX Design & Frontend Development. You can see my open source project on [Github](), see my design on [Pinterest]() & other experience on [LinkedIn]()
 
-### License
+## License
 
 This project under **MIT License**

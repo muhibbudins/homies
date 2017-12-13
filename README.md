@@ -8,11 +8,11 @@ Homies are landing page template for Home Design Agency, this repository build f
 
 Before we start, please follow this step to prepare this project (and make sure you have already installed web service like Apache / Nginx / XAMPP / WAMP etc. to start localhost) :
 
-### Install Ruby SASS
+#### Install Ruby SASS
 
 First, you can install Ruby from [this link](https://www.ruby-lang.org/en/downloads/) with your current platform. Next, install Ruby SASS from [this link](http://sass-lang.com/install). Or if you use Linux / OSX just run `sudo gem install sass` on your Terminal.
 
-### Install GIT
+#### Install GIT
 
 > If you have already installed git you can skip this step
 
@@ -100,7 +100,7 @@ And then, after prepare requirement above. You can start cloning this project to
 
 ![Muhibbudin Suretno](/img/photo.jpg)
 
-Hi, My name Muhibbudin Suretno (Eno) i have around 3+ years experience in Web Development and this year try to focus on UI/UX Design & Frontend Development. You can see my open source project on [Github](), see my design on [Pinterest]() & other experience on [LinkedIn]()
+Hi, My name Muhibbudin Suretno (Eno) i have around 3+ years experience in Web Development and this year try to focus on UI/UX Design & Frontend Development. You can see my open source project on [Github](https://github.com/muhibbudins), see my design on [Pinterest](https://id.pinterest.com/msuretno/portofolio-in-design/) & other experience on [LinkedIn](https://www.linkedin.com/in/muhibbudins/)
 
 ## License
 

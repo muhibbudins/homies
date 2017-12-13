@@ -15,7 +15,7 @@ Homies are landing page template for Home Design Agency, this repository build f
 
 ### About
 
-![Muhibbudin Suretno](/img/avatar.jpg)
+![Muhibbudin Suretno](/img/photo.jpg)
 
 Hi, My name Muhibbudin Suretno (Eno) i have around 3+ years experience in Web Development and this year try to focus on UI/UX Design & Frontend Development. You can see my open source project on [Github](), see my design on [Pinterest]() & other experience on [LinkedIn]()
 

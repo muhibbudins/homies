@@ -1,3 +1,4 @@
+
 // Background
 $bgHero      : url(../img/hero.png);
 $bgTestimony : url(../img/testimony.png);
@@ -97,6 +98,7 @@ body {
 		border-radius: 30px;
 	}
 }
+
 
 /* Section Testimony */
 .testimony {
@@ -213,6 +215,7 @@ body {
 			color: $grass;
 		}
 	}
+
 	&-masonry {
 	    flex-flow: column wrap;
 	    max-height: 1200px;
@@ -273,80 +276,5 @@ body {
 	&-description {
 		font-size: 14px;
 		margin: 20px 0;
-	}
-}
-
-/* Section Contact */
-.contact-us {
-	width: 100%;
-	min-height: 500px;
-	position: relative;
-
-	&-map {
-	    position: relative;
-	    width: 100%;
-	    overflow: hidden;
-	    height: 500px;
-	    filter: grayscale(100%);
-	    z-index: 0;
-	}
-	&-text {
-		position: absolute;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		background-color: transparentize($ocean, 0.35);
-		background-image: $bgFooter;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-position: center center;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	&-inner {
-		width: 500px;
-		text-align: center;
-		color: white;
-	}
-	&-title {
-		font-size: 32px;
-		font-family: $oswald;
-	}
-	&-description {
-		font-size: 14px;
-		margin-top: 10px;
-		margin-bottom: 40px;
-	}
-	.btn {
-		padding: 8px 32px;
-		font-size: 14px;
-		color: white;
-		border-color: white;
-		background-color: transparent;
-		height: auto;
-		border-radius: 20px;
-	}
-}
-
-/* Section Footer */
-.footer {
-	width: 100%;
-	padding: 20px;
-
-	.navbar {
-		&-brand {
-			font-size: 14px;
-			color: lighten($darkGrey, 2%);
-			font-weight: normal;
-			font-family: $quicksand;
-		}
-		.btn {
-			color: lighten($darkGrey, 8%);
-			font-size: 24px;
-			padding: 6px 12px;
-			color: $lightGrey;
-		}
 	}
 }

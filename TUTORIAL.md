@@ -177,6 +177,8 @@ Lalu, buka folder `index.html` dan kita siapkan struktur section yang terbagi me
 	</div><!-- ./ Footer -->
 ```
 
+> Ask something?
+
 Setelah itu kita masukan code untuk heading / bagian menu, masukan code berikut setelah code `<div class"heading">`
 
 ```html

@@ -2,7 +2,7 @@
 
 Homies are landing page template for Home Design Agency, this repository build for kulgram "Kuliah Telegram" in FemaleGeek Community.
 
-![Preview](/img/preview.jpg)
+![Preview](/img/full.jpg)
 
 ## Requirement & Prepare
 

@@ -1,0 +1,273 @@
+/* Section Body */
+body {
+  background-color: #F7FAFF;
+  background-image: url(../img/hero.png);
+  background-repeat: no-repeat;
+  background-size: 700px 1000px;
+  background-position: top right;
+  font-family: "Quicksand", sans-serif; }
+
+/* Section Heading */
+.heading {
+  background-color: white;
+  box-shadow: 0px -4px 13px 0px rgba(20, 20, 20, 0.7); }
+
+/* Sub Section Heading */
+.navbar {
+  padding: 15px 0; }
+  .navbar-brand {
+    color: #43E09F;
+    font-family: "Lobster", cursive;
+    font-size: 28px;
+    line-height: normal;
+    margin-bottom: 5px; }
+  .navbar .btn {
+    color: #858585;
+    padding: 6px 20px;
+    font-size: 14px; }
+    .navbar .btn-active {
+      color: #43E09F; }
+    .navbar .btn-primary {
+      background-color: #43E09F;
+      border: 0;
+      color: white;
+      border-radius: 20px;
+      margin-left: 20px; }
+
+/* Section Hero */
+.hero {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .hero-title {
+    font-size: 64px;
+    font-family: "Oswald", sans-serif;
+    color: #2EC787;
+    line-height: 1.1;
+    margin-bottom: 10px; }
+  .hero-sub_title {
+    color: #717171;
+    margin-bottom: 40px;
+    font-size: 16px; }
+  .hero .btn {
+    border: 1px solid #2D9CDB;
+    background-color: transparent;
+    color: #2D9CDB;
+    padding: 14px 48px;
+    height: auto;
+    border-radius: 30px; }
+
+/* Section Testimony */
+.testimony {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(46, 190, 199, 0.65);
+  background-image: url(../img/testimony.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; }
+  .testimony:before {
+    content: 'TESTIMONY';
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 20px;
+    font-size: 164px;
+    position: absolute;
+    transform: translateX(60%) translatey(60%) rotate(-90deg);
+    color: rgba(92, 92, 92, 0.15); }
+  .testimony-image {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    max-height: 300px;
+    position: relative;
+    box-shadow: 0 5px 14px 0px rgba(20, 20, 20, 0.3); }
+    .testimony-image:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: transparent;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to top, rgba(37, 37, 37, 0.5), transparent);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to top, rgba(37, 37, 37, 0.5), transparent);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+    .testimony-image img {
+      width: 100%;
+      height: 300px; }
+  .testimony-avatar {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 25px;
+    right: 25px;
+    overflow: hidden; }
+    .testimony-avatar img {
+      width: 100%;
+      height: 100%; }
+  .testimony-quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    font-size: 14px;
+    color: white; }
+    .testimony-quote blockquote {
+      border-left: 0; }
+    .testimony-quote cite {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px; }
+
+/* Section Projects */
+.projects {
+  width: 100%;
+  min-height: 1000px;
+  background-image: url(../img/projects.png);
+  background-repeat: no-repeat;
+  background-size: 800px 1850px;
+  background-position: center left;
+  position: relative;
+  padding: 60px 0; }
+  .projects:before {
+    content: 'PROJECTS';
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 20px;
+    font-size: 164px;
+    position: absolute;
+    transform: translateX(10%);
+    color: rgba(92, 92, 92, 0.15);
+    bottom: -4%; }
+  .projects .btn {
+    border: 1px solid #828282;
+    background-color: transparent;
+    color: #828282;
+    padding: 14px 32px;
+    height: auto;
+    border-radius: 30px;
+    margin: 0 8px; }
+    .projects .btn.active {
+      border-color: #43E09F;
+      color: #43E09F; }
+  .projects-masonry {
+    flex-flow: column wrap;
+    max-height: 1200px;
+    margin-top: 40px; }
+  .projects-card {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px 0px rgba(20, 20, 20, 0.2);
+    position: relative;
+    min-height: 300px; }
+    .projects-card img {
+      width: 100%;
+      height: 100%;
+      vertical-align: middle;
+      max-width: 100%;
+      transform-origin: 50% 0%;
+      transform: scale(1.6);
+      z-index: 0; }
+    .projects-card:hover > .projects-overlay {
+      opacity: 1; }
+  .projects-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    background-color: rgba(37, 37, 37, 0.6);
+    color: white;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+    cursor: default; }
+    .projects-overlay .btn {
+      padding: 12px 32px;
+      font-size: 14px;
+      color: white;
+      border-color: white; }
+  .projects-title {
+    font-size: 18px;
+    font-weight: bold; }
+  .projects-description {
+    font-size: 14px;
+    margin: 20px 0; }
+
+/* Section Contact */
+.contact-us {
+  width: 100%;
+  min-height: 500px;
+  position: relative; }
+  .contact-us-map {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    filter: grayscale(100%);
+    z-index: 0; }
+  .contact-us-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(35, 206, 217, 0.65);
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .contact-us-inner {
+    width: 500px;
+    text-align: center;
+    color: white; }
+  .contact-us-title {
+    font-size: 32px;
+    font-family: "Oswald", sans-serif; }
+  .contact-us-description {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 40px; }
+  .contact-us .btn {
+    padding: 8px 32px;
+    font-size: 14px;
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    height: auto;
+    border-radius: 20px; }
+
+/* Section Footer */
+.footer {
+  width: 100%;
+  padding: 20px; }
+  .footer .navbar-brand {
+    font-size: 14px;
+    color: #767676;
+    font-weight: normal; }
+  .footer .navbar .btn {
+    color: #858585;
+    font-size: 24px;
+    padding: 6px 12px;
+    color: #E0E0E0; }
+
+/*# sourceMappingURL=style.css.map */

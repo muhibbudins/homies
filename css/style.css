@@ -1,5 +1,6 @@
 /* Section Body */
 body {
+  width: 100%;
   background-color: #F7FAFF;
   background-image: url(../img/hero.png);
   background-repeat: no-repeat;
@@ -58,6 +59,17 @@ body {
     padding: 14px 48px;
     height: auto;
     border-radius: 30px; }
+  @media (max-width: 1024px) {
+    .hero {
+      background: transparent;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6));
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6));
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      text-align: center; }
+      .hero-title {
+        font-size: 48px; } }
 
 /* Section Testimony */
 .testimony {
@@ -80,6 +92,9 @@ body {
     position: absolute;
     transform: translateX(60%) translatey(60%) rotate(-90deg);
     color: rgba(92, 92, 92, 0.15); }
+    @media (max-width: 1024px) {
+      .testimony:before {
+        content: ''; } }
   .testimony-image {
     width: 100%;
     border-radius: 20px;
@@ -147,6 +162,9 @@ body {
     transform: translateX(10%);
     color: rgba(92, 92, 92, 0.15);
     bottom: -4%; }
+    @media (max-width: 1024px) {
+      .projects:before {
+        content: ''; } }
   .projects .btn {
     border: 1px solid #828282;
     background-color: transparent;
@@ -263,7 +281,8 @@ body {
   .footer .navbar-brand {
     font-size: 14px;
     color: #767676;
-    font-weight: normal; }
+    font-weight: normal;
+    font-family: "Quicksand", sans-serif; }
   .footer .navbar .btn {
     color: #858585;
     font-size: 24px;

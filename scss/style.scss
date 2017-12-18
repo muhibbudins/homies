@@ -25,6 +25,7 @@ $lobster   : 'Lobster', cursive;
 
 /* Section Body */
 body {
+	width: 100%;
 	background-color: $background;
 	background-image: $bgHero;
 	background-repeat: no-repeat;
@@ -96,6 +97,17 @@ body {
 		height: auto;
 		border-radius: 30px;
 	}
+
+	@media (max-width: 1024px) {
+		background: transparent;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to top, transparentize(white, 0.1), transparentize(white, 0.4));  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to top, transparentize(white, 0.1), transparentize(white, 0.4)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		text-align: center;
+
+		&-title {
+			font-size: 48px;
+		}
+	}
 }
 
 /* Section Testimony */
@@ -120,6 +132,10 @@ body {
 		position: absolute;
 		transform: translateX(60%) translatey(60%) rotate(-90deg);
 		color: transparentize($black, 0.85);
+
+		@media (max-width: 1024px) {
+			content: '';
+		}
 	}
 	&-image {
 		width: 100%;
@@ -198,6 +214,10 @@ body {
 		transform: translateX(10%);
 		color: transparentize($black, 0.85);
 		bottom: -4%;
+
+		@media (max-width: 1024px) {
+			content: '';
+		}
 	}
 	.btn {
 		border: 1px solid $grey;

@@ -31,7 +31,7 @@ And then, after prepare requirement above. You can start download this project t
 
 #### Tutorial
 
-- [Indonesian language](https://muhibbudins.github.io/homies/docs/)
+- [Indonesian language](https://muhibbudins.github.io/docs-homies/)
 
 #### Folder Structure
 
